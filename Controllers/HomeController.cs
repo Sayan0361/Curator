@@ -1,5 +1,5 @@
 ﻿using Curator.Models;
-using Curio.Repositories;
+using Curator.Repositories;
 using System;
 using System.Collections.Generic;
 using System.Web.ApplicationServices;

@@ -16,10 +16,11 @@
     @RenderSection("head", required: false)
 </head>
 <body>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
     @*<%-- ===== NAVBAR ===== --%>*@
     @Html.Partial("_Navbar")
-
+    @Html.Partial("_SearchOverlay")
     @*<%-- ===== MAIN CONTENT ===== --%>*@
     <main style="padding-top:56px">
         @RenderBody()

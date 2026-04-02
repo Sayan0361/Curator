@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 
-namespace Curio.Repositories
+namespace Curator.Repositories
 {
     public class HomeRepository
     {

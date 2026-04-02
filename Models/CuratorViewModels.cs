@@ -1,4 +1,4 @@
-﻿// Models/CuratorViewModels.cs
+﻿// Models/curatorViewModels.cs
 using System;
 using System.Collections.Generic;
 
