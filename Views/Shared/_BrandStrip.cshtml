@@ -1,0 +1,15 @@
+﻿
+    @model IEnumerable<string>
+
+    <div class="brand-strip">
+        <div class="marquee-track">
+            <%-- Render twice for seamless infinite loop --%>
+            @for (int pass = 0; pass < 2; pass++)
+            {
+                foreach (var brand in Model)
+                {
+                    <span class="brand-item">@brand</span>
+                }
+            }
+        </div>
+    </div>
