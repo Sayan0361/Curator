@@ -1,5 +1,33 @@
+## --- Visual Studio Build Artifacts ---
+[Bb]in/
+[Oo]bj/
+_ReSharper*/
+[Tt]est[Rr]esult*/
 .vs/
-bin/
-obj/
+.idea/
+.vscode/
+
+## --- NuGet Packages ---
+# Ignores the bulky DLLs, keeps the configuration
+packages/*
+!packages/repositories.config
+
+## --- User-specific files ---
 *.user
+*.userosscache
+*.sln.docstates
 *.suo
+*.slnx.user
+
+## --- Web Projects ---
+*.Publish.xml
+# App_Data often contains local DBs that shouldn't be shared
+App_Data/*.mdf
+App_Data/*.ldf
+App_Data/*.xml
+
+## --- Frontend & OS ---
+node_modules/
+.sass-cache/
+.DS_Store
+Thumbs.db
