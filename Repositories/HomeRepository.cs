@@ -101,7 +101,7 @@ namespace Curator.Repositories
                 new RatedProductViewModel { Id=20, Name="Heavyweight Tee",  Price=85,  Rating=4.9, ReviewCount=248,
                     ImageUrl="https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=500&q=80" },
                 new RatedProductViewModel { Id=21, Name="Utility Shorts",   Price=145, Rating=4.8, ReviewCount=192,
-                    ImageUrl="https://images.unsplash.com/photo-1591195853828-11db59a44f43?w=500&q=80" },
+                    ImageUrl="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT7a-vgAPGdFmCl56gag_7XwK1hTDYVgh4pjt0qS27DoixuyaelxhHgkLo6JAtdjop42U8ifyAI_LbdyC4SiVnsCFmLB77qtfTMExggQt9qrY3Ch3c-U3JF" },
                 new RatedProductViewModel { Id=22, Name="Studio Tee",       Price=95,  Rating=5.0, ReviewCount=310,
                     ImageUrl="https://images.unsplash.com/photo-1581655353564-df123a1eb820?w=500&q=80" },
                 new RatedProductViewModel { Id=23, Name="Logo Cap",         Price=65,  Rating=4.7, ReviewCount=147,
