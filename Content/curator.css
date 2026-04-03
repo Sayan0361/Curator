@@ -5,7 +5,7 @@
 
 /* ---- CSS Variables ---- */
 :root {
-    --sf: -apple-system, 'SF Pro Display', BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --sf: 'Bricolage Grotesque', sans-serif;
     --white: #ffffff;
     --gray-1: #f5f5f7;
     --gray-2: #e8e8ed;
